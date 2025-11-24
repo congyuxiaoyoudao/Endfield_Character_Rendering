@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Face
+  m_Shader: {fileID: 4800000, guid: 6c1a8d47f9caf244eae02f6286f0e6d3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 47a0e2a94d1962c4292f08d19fc87198, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomMask:
+        m_Texture: {fileID: 2800000, guid: 178fb096834ef134a9b8ef2e8a76e00b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRampMap:
+        m_Texture: {fileID: 2800000, guid: 332ab9a4a3d1a2a4cb4d1f8caebddd1b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LipHighlightMask:
+        m_Texture: {fileID: 2800000, guid: ee13a737fdd94114787bf7ec2ce77455, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SDFMap:
+        m_Texture: {fileID: 2800000, guid: 1db6eaaa3ece92243b6d243ab6e1dee8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AngleThreshold: 0.97425795
+    - _FlipSDFThreshold: -0.06931951
+    - _SDFShadowBias: 1
+    - _StepSharpness: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.88993704, b: 0.88993704, a: 1}
+    - _HeadForward: {r: -0.12638976, g: -0.06913575, b: -0.98956853, a: 0}
+    - _HeadRight: {r: -0.9915239, g: -0.021461526, b: 0.12813884, a: 0}
+    - _LipHLColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 0.73899364, b: 0.73899364, a: 1}
+    - _SSSTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.76729554, g: 0.45708975, b: 0.31608713, a: 1}
+  m_BuildTextureStacks: []
